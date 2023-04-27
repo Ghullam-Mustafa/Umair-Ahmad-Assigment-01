@@ -15,3 +15,19 @@ function variableNames() {
 function cammelCase() {
     document.getElementById('output').innerHTML= "<h3>Example</h3><ul><li>user</li><li>userResponse</li><li>userResponseTime</li><li>userResponseTimeLimit</li></ul>"
 }
+
+function sunTwo() {
+    document.getElementById('orignalstatements').innerHTML= "<p>let num1=10;</p><p>let num2 = 5;</p><p>Let sum = num1 + num2</p>"
+}
+
+function sum() {
+    let num1=10
+    let num2 = 5
+    var add = num1 + num2
+    document.getElementById('output').innerHTML=add
+}
+
+function totalSum() {
+    sunTwo()
+    sum()
+}
