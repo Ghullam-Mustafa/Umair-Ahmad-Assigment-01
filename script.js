@@ -7,7 +7,7 @@ function alertNumber() {
 }
 
 function variableNames() {
-    document.getElementById('output').innerHTML = "<ul><li>A variable name can't contain any spaces.</li><li>A variable name can contain only Letters, dollar sign,and underscores.</li><li>Though a variable name can't be any javascript's keywords.For example, userAlert and myVar are legal.</li><li>Capital Letters are fine, but be careful.Variable names arecase sesitive. A raso is not a Rose.If you assign the string Floribundas to the variable rose,and then ask  javascript for the value assigend to <span style{color= pink;}> Rose </span>, you'll come up empty</li></ul>"
+    document.getElementById('output').innerHTML = "<ul><li>A variable name can't contain any spaces.</li><li>A variable name can contain only Letters, dollar sign,and underscores.</li><li>Though a variable name can't be any javascript's keywords.For example,<code> userAlert </code> and <code> myVar </code> are legal.</li><li>Capital Letters are fine, but be careful.Variable names arecase sesitive. A raso is not a Rose.If you assign the string Floribundas to the variable rose,and then ask  javascript for the value assigend to <span style{color= pink;}> Rose </span>, you'll come up empty</li></ul>"
 }
 
 
@@ -62,8 +62,8 @@ let num1=10
 
 function someNumbers() {
     document.getElementById('orignalstatements').innerHTML="36/6*3;"
-    var someNumbers = 36/6*3
-    document.getElementById('output').innerHTML=someNumbers
+    var someNumbers = 36/6*3+2**4-(3+5)
+    document.getElementById('output').innerHTML= "<p class= 'text-center'> "+ someNumbers + "</p>"
 }
 
 document.getElementById('clear').onclick =function () {
